@@ -25,7 +25,7 @@ SECRET_KEY = 'yl!20#ek@efn3&r9ke$1(3oec_l6^&qqv$z3u)5wkunqaai#k5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','mysite.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','ugochukwu2016.pythonanywhere.com']
 
 
 # Application definition
@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'djangogirls3',
-        'USER': 'postgres',
-        'PASSWORD': 'miracle2016',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+# DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.postgresql',
+   #     'NAME': 'djangogirls3',
+    #    'USER': 'postgres',
+     #   'PASSWORD': 'miracle2016',
+      #  'HOST': 'localhost',
+       # 'PORT': '',
+ #   }
+# }
 
 
 # Password validation
